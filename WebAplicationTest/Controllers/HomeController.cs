@@ -22,7 +22,13 @@ namespace WebAplicationTest.Controllers
 
         public ActionResult Contact()
         {
-            ViewBag.Message = "Your contact page";
+            ViewBag.Message = "Norjelen";
+
+            return View();
+        }
+        public ActionResult Norjelen()
+        {
+            ViewBag.Message = "Norjelen";
 
             return View();
         }
